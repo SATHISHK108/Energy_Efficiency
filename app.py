@@ -40,7 +40,7 @@
     "        return render_template('result.html', prediction=my_prediction)\n",
     "    \n",
     "if __name__ == '__main__':\n",
-    "        app.run(debug=True,use_reloader=False)"
+    "        app.run(debug=True)"
    ]
   },
   {
