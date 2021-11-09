@@ -23,9 +23,9 @@
         <!-- Result -->
         <div class="results">
             <h2>Heating Load<h2>
-                {% print(prediction[0,0])%}<br><br>
+                {% print('%.2f'%prediction[0,0])%}<br><br>
             <h2>Cooling Load<h2>
-                {% print(prediction[0,1])%}  
+                {% print('%.2f'%prediction[0,1])%}  
         </div>
             
         <!-- Footer -->
